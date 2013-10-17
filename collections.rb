@@ -41,7 +41,7 @@ collection.each do |item|
   if item <= 500
     items_below << item
   else
-    items_above <<item
+    items_above << item
   end
 end
 puts "Items below 500"
