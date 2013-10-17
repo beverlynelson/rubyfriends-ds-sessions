@@ -49,4 +49,46 @@ puts items_below.join(', ')
 puts "Items above 500"
 puts items_above.join(', ')
 
+puts "Print them in ascending order with a place marker"
+ sort_collection = collection.sort
+ marker_collection = sort_collection.each_with_index {|item, i| puts [i, item].join(". ")}
+
+puts "Show sum of numbers between 600 and 700"
+select_collection = collection.select { |number| number >= 600 && number <=700 }
+
+
+puts select_collection.inject(:+)
+
+puts "Create groups of 100's"
+
+puts "Numbers between 0 and 100"
+puts select_collection = collection.select { |number| number >= 0 && number <= 101}
+
+puts "Numbers between 100 and 200"
+puts select_collection = collection.select { |number| number >= 100 && number <= 201}
+
+puts "Numbers between 200 and 300"
+puts select_collection = collection.select { |number| number >= 200 && number <= 301}
+
+puts "Numbers between 300 and 400"
+puts select_collection = collection.select { |number| number >= 300 && number <= 401}
+
+puts "Numbers between 400 and 500"
+puts select_collection = collection.select { |number| number >= 400 && number <= 501}
+
+puts "Numbers between 500 and 600"
+puts select_collection = collection.select { |number| number >= 500 && number <= 601}
+
+puts "Numbers between 600 and 700"
+puts select_collection = collection.select { |number| number >= 600 && number <= 701}
+
+puts "Numbers between 700 and 800"
+puts select_collection = collection.select { |number| number >= 700 && number <= 801}
+
+puts "Numbers between 800 and 900"
+puts select_collection = collection.select { |number| number >= 800 && number <= 901}
+
+puts "Find all numbers that include 6"
+puts select_collection = collection.find_all { |number| number.to_s.include? ("6")}
+
  
