@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @person.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @person.last_name %>
+</p>
+
+<ul>
+  <% @person.phone_numbers.each do |phone| %>
+    <li><%= phone.number %> <%= link_to('edit', edit_phone_number_path(phone)) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Add phone number', new_phone_number_path(person_id: @person.id)  %> |
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>
