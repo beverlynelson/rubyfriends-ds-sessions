@@ -9,9 +9,9 @@ Sample code for participants in RubyFriends DSSession
 - Exercise 4: [Event Reporter](http://tutorials.jumpstartlab.com/projects/event_reporter.html)
 
 ###Rails
-- Exercise 5: [Contact Manager](http://tutorials.jumpstartlab.com/projects/contact_manager.html)
-- Exercise 6: [Blogger](http://tutorials.jumpstartlab.com/projects/blogger.html)
-- Exercise 7: [Merchant](http://tutorials.jumpstartlab.com/projects/merchant.html)
+- Exercise 5: [Blogger](http://tutorials.jumpstartlab.com/projects/blogger.html)
+- Exercise 6: [Merchant](http://tutorials.jumpstartlab.com/projects/merchant.html)
+- Exercise 7: [Contact Manager](http://tutorials.jumpstartlab.com/projects/contact_manager.html)
 - Exercise 8: [Scrabble Web](http://tutorials.jumpstartlab.com/academy/workshops/scrabble-web.html)
 
 ###Sinatra
